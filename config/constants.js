@@ -44,7 +44,7 @@ const BLACKLISTED_WORDS = ['godev'];
 
 // Browser configuration
 const BROWSER_OPTIONS = {
-  headless: process.env.HEADLESS || false,
+  headless: true,
   defaultViewport: { width: 1366, height: 768 },
   args: [
     '--no-sandbox',
